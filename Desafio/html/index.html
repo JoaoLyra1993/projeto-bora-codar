@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../js/index.js" defer></script>
+        <link rel="stylesheet" href="../css/index.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <header class="h-wraper">
+            <div class="div-img">
+                <img src="../imagens/logo.png" alt="Logo de previsão do tempo">
+            </div>
+
+            <div class="div-claro-escuro">
+                <img src="../imagens/light-dark-small.png" alt="darkmode">
+            </div>
+        </header>
+
+        <main class="main-div">
+            <div id="inicial" class="previsao-wrap">
+                <form class="previsao">
+                    <input type="text" name="" id="searchBar" class="search-bar" placeholder="Maceió" autocomplete="on">
+                    <input id="sbt-button" class="bt-submit" type="button" value="Submit" onclick="run()">
+                </form>
+                
+
+                <div class="div-row-itens">
+                    <div class="row-item-clima" id="div-tempo">  
+                        <h2 id="h2-clima">Clima</h2>                      
+                        <img src="" alt="" id="img-status">
+                        <p id="temperatura"></p>
+                        <p id="umidade"></p>
+                        <p id="vel-vento"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-row-itens">
+                
+                <div class="row-item">
+                    <h2>Noticia 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id varius sem. Ut maximus velit odio, sit amet venenatis dui pellentesque ac. Nulla facilisi. Sed mattis lacinia tellus eu scelerisque. Vestibulum pulvinar sit amet purus eget pulvinar. Praesent dictum gravida nisl, ac commodo tortor interdum sed. Fusce cursus leo at tellus faucibus, id consectetur nulla rutrum. </p>
+                    <a href="#" class="a-noticias">Link da noticia aqui</a>
+                </div>
+                    
+                <div class="row-item">
+                    <h2>Noticia 2</h2>
+                    <p>Fusce in volutpat metus. Cras fermentum sem a ante tincidunt rutrum. Cras tempor congue quam. Nunc sagittis et leo vitae iaculis. Ut porta odio eget ligula scelerisque, nec tincidunt turpis blandit. Suspendisse potenti. Vivamus aliquam est ligula, vel vulputate dolor scelerisque eget.</p>
+                    <a href="#" class="a-noticias">Link da noticia aqui</a>
+                </div>
+                    
+                <div class="row-item">
+                    <h2>Noticia 3</h2>
+                    <p>Phasellus in mauris quis nisl bibendum facilisis. Curabitur tempor iaculis nisi nec porta. Donec non libero vel metus dapibus tempus at hendrerit augue. Proin sodales laoreet neque, sit amet pretium turpis tempus quis. </p>
+                    <a href="#" class="a-noticias">Link da noticia aqui</a>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            
+        </footer>
+    </body>
+</html>
